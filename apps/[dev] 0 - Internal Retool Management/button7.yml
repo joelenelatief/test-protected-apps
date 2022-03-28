@@ -1,0 +1,41 @@
+id: button7
+type: widget
+subtype: ButtonWidget
+template:
+  ordered:
+    - valueToCopy: ''
+    - color: '#3c92dc'
+    - internalUrlHashParams: ''
+    - exportFileType: csv
+    - buttonType: action
+    - exportTemplate: null
+    - url: ''
+    - newWindow: false
+    - value: Restart Trial
+    - style:
+        ordered: []
+    - exportQuery: ''
+    - action: restartTrial
+    - internalUrlQuery: ''
+    - internalUrlPath: ''
+    - events:
+        - ordered:
+            - event: click
+            - method: trigger
+            - type: datasource
+            - pluginId: restartTrial
+            - waitType: debounce
+            - waitMs: '0'
+    - exportFileName: ''
+    - loading: ''
+    - disabled: ''
+style:
+  ordered: []
+position2:
+  position2:
+    container: container1
+    row: 7
+    col: 6
+    height: 1
+    width: 6
+createdAt: '2019-02-21T20:01:48.939Z'

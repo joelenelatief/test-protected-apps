@@ -1,0 +1,98 @@
+id: moveToEnterprise
+type: datasource
+subtype: RetoolTableQuery
+resourceName: '[dev] internal_retool (write)'
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - records: ''
+    - lastReceivedFromResourceAt: null
+    - databasePasswordOverride: ''
+    - queryDisabledMessage: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: 0
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - showFailureToaster: true
+    - query: ''
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: 0
+    - privateParams: []
+    - triggersOnSuccess:
+        - getOrganization
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - recordId: ''
+    - importedQueryInputs:
+        ordered: []
+    - showSuccessConfetti: false
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - filterBy: >-
+        [{"key":"id","value":"{{
+        table1.selectedRow.data.organizationId}}","operation":"="}]
+    - databaseHostOverride: ''
+    - metadata: null
+    - actionType: UPDATE_BY
+    - triggersOnFailure: []
+    - changesetObject: ''
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - databaseNameOverride: ''
+    - confirmationMessage: Are you sure you want to move him to an Enterprise plan?
+    - isFetching: false
+    - changeset: >-
+        [{"key":"planId","value":"{{ null
+        }}"},{"key":"trialExpiryDate","value":"{{ null }}"}]
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - enableBulkUpdates: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - importedQueryInputDefaults:
+        ordered: []
+    - bulkUpdatePrimaryKey: ''
+    - runWhenPageLoads: false
+    - transformer: >-
+        // type your code here
+
+        // example: return formatDataAsArray(data).filter(row => row.quantity >
+        20)
+
+        return data
+    - events:
+        - ordered:
+            - event: success
+            - type: datasource
+            - method: trigger
+            - pluginId: getOrganization
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
+    - tableName: organizations
+    - queryTimeout: '10000'
+    - requireConfirmation: true
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - databaseUsernameOverride: ''
+    - doNotThrowOnNoOp: false
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: '2019-02-18T19:04:16.379Z'

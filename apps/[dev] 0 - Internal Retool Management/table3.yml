@@ -1,0 +1,192 @@
+id: table3
+type: widget
+subtype: TableWidget
+template:
+  ordered:
+    - actionButtonQuery: ''
+    - showCustomButton: false
+    - sortMappedValue:
+        ordered: []
+    - _filteredSortedRenderedDataWithTypes: null
+    - normalizedData: null
+    - actionButtonType: runQuery
+    - saveChangesDisabled: ''
+    - columnTypeProperties:
+        ordered: []
+    - columnWidths:
+        - object:
+            id: id
+            value: 65.328125
+        - object:
+            id: name
+            value: 179.828125
+    - actionButtonDisabled: ''
+    - disableRowSelectInteraction: false
+    - columnWidthsMobile: []
+    - hasNextAfterCursor: ''
+    - columnTypeSpecificExtras:
+        ordered: []
+    - onRowAdded: ''
+    - columnHeaderNames:
+        ordered: []
+    - alwaysShowPaginator: false
+    - columnColors:
+        ordered:
+          - folderId: ''
+          - name: ''
+          - organizationId: ''
+          - updatedAt: ''
+          - saves: ''
+          - releasedTagId: ''
+          - id: ''
+          - createdAt: ''
+          - uuid: ''
+          - last_saved: ''
+    - columnFrozenAlignments:
+        ordered: []
+    - allowMultiRowSelect: false
+    - columnFormats:
+        ordered:
+          - last_saved: datetime
+    - columnRestrictedEditing:
+        ordered: []
+    - showFilterButton: true
+    - actionButtonUrl: ''
+    - actionButton: false
+    - _columnSummaryTypes:
+        ordered: []
+    - actionButtonNewWindow: false
+    - _columnsWithLegacyBackgroundColor:
+        set: []
+    - showAddRowButton: false
+    - nextBeforeCursor: ''
+    - columnVisibility:
+        ordered:
+          - folderId: true
+          - name: true
+          - sales: true
+          - organizationId: true
+          - updatedAt: true
+          - saves: true
+          - releasedTagId: true
+          - id: true
+          - createdAt: true
+          - uuid: true
+          - email: true
+          - last_saved: true
+    - selectedPageIndex: '0'
+    - applyDynamicSettingsToColumnOrder: false
+    - rowColor:
+        array: []
+    - actionButtonColumnName: Actions
+    - filterStackType: and
+    - downloadRawData: true
+    - showFetchingIndicator: true
+    - serverPaginated: false
+    - data: '{{ getApps.data }}'
+    - displayedData: null
+    - actionButtons: []
+    - actionButtonSelectsRow: false
+    - selectRowByDefault: true
+    - defaultSortByColumn: ''
+    - paginationOffset: 0
+    - columnAlignment:
+        ordered: []
+    - columnSummaries:
+        object: {}
+    - sortedDesc: false
+    - customButtonName: ''
+    - columnMappersRenderAsHTML:
+        ordered: []
+    - actionButtonInternalUrlPath: ''
+    - showRefreshButton: true
+    - pageSize: 11
+    - useDynamicColumnSettings: false
+    - style:
+        ordered: []
+    - selectedColumn: null
+    - actionButtonPosition: right
+    - dynamicRowHeights: false
+    - bulkUpdateAction: ''
+    - afterCursor: ''
+    - onCustomButtonPressQueryName: ''
+    - changeSet:
+        object: {}
+    - sortedColumn: ''
+    - _columnSummaryValues:
+        ordered: []
+    - checkboxRowSelect: false
+    - _compatibilityMode: true
+    - showColumnBorders: true
+    - _renderedDataWithTypes: null
+    - actionButtonText: ''
+    - columnAllowOverflow:
+        ordered: []
+    - beforeCursor: ''
+    - serverPaginationType: limitOffsetBased
+    - onRowSelect: ''
+    - showDownloadButton: true
+    - selectedIndex: ''
+    - defaultSortDescending: false
+    - _sortedDisplayedDataIndices: null
+    - dynamicColumnSettings: null
+    - totalRowCount: ''
+    - recordUpdates:
+        ordered:
+          - array: []
+    - newRow: null
+    - emptyMessage: No rows found
+    - columnEditable:
+        ordered: []
+    - filters:
+        ordered:
+          - array: []
+    - displayedDataIndices: null
+    - disableSorting:
+        ordered: []
+    - columnMappers:
+        ordered: []
+    - showClearSelection: false
+    - doubleClickToEdit: false
+    - overflowType: pagination
+    - _reverseSortedDisplayedDataIndices: null
+    - selectedCell:
+        object:
+          index: null
+          data: null
+          columnName: null
+    - columns:
+        - id
+        - name
+        - createdAt
+        - updatedAt
+        - organizationId
+        - folderId
+        - uuid
+        - releasedTagId
+        - saves
+        - last_saved
+    - defaultSelectedRow: first
+    - freezeActionButtonColumns: false
+    - sort: null
+    - actionButtonInternalUrlQuery: ''
+    - sortByRawValue:
+        ordered: []
+    - calculatedColumns: []
+    - selectedRow:
+        object:
+          index: null
+          data: null
+    - showPaginationOnTop: false
+    - _reverseDisplayedDataIndices: null
+    - nextAfterCursor: ''
+    - useCompactMode: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: container2
+    row: 15
+    height: 8
+    width: 6
+createdAt: '2019-02-09T01:04:14.642Z'

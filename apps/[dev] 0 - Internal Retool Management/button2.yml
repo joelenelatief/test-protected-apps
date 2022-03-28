@@ -1,0 +1,41 @@
+id: button2
+type: widget
+subtype: ButtonWidget
+template:
+  ordered:
+    - valueToCopy: ''
+    - color: '#3c92dc'
+    - internalUrlHashParams: ''
+    - exportFileType: csv
+    - buttonType: action
+    - exportTemplate: null
+    - url: ''
+    - newWindow: false
+    - value: Refresh
+    - style:
+        ordered: []
+    - exportQuery: ''
+    - action: searchForUsers
+    - internalUrlQuery: ''
+    - internalUrlPath: ''
+    - events:
+        - ordered:
+            - event: click
+            - method: trigger
+            - type: datasource
+            - pluginId: searchForUsers
+            - waitType: debounce
+            - waitMs: '0'
+    - exportFileName: ''
+    - loading: ''
+    - disabled: ''
+style:
+  ordered: []
+position2:
+  position2:
+    container: container3
+    row: 13
+    col: 8
+    height: 1
+    width: 4
+createdAt: '2019-02-09T00:27:18.037Z'

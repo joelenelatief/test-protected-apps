@@ -1,0 +1,45 @@
+id: button9
+type: widget
+subtype: ButtonWidget
+template:
+  ordered:
+    - valueToCopy: ''
+    - color: '{{ table2.selectedRow.data.enabled ? ''#eb144c'' : ''green'' }}'
+    - internalUrlHashParams: ''
+    - exportFileType: csv
+    - buttonType: action
+    - exportTemplate: null
+    - url: ''
+    - newWindow: false
+    - value: >-
+        {{ table2.selectedRow.data.enabled ? 'Deactivate User' : 'Activate User'
+        }}
+    - style:
+        ordered:
+          - accent-background: '{{ table2.selectedRow.data.enabled ? ''#eb144c'' : ''green'' }}'
+    - exportQuery: ''
+    - action: toggleUserEnabled
+    - internalUrlQuery: ''
+    - internalUrlPath: ''
+    - events:
+        - ordered:
+            - event: click
+            - method: trigger
+            - type: datasource
+            - pluginId: toggleUserEnabled
+            - waitType: debounce
+            - waitMs: '0'
+    - exportFileName: ''
+    - loading: ''
+    - disabled: ''
+style:
+  ordered:
+    - accent-background: '{{ table2.selectedRow.data.enabled ? ''#eb144c'' : ''green'' }}'
+position2:
+  position2:
+    container: container2
+    row: 13
+    col: 7
+    height: 1
+    width: 5
+createdAt: '2019-03-14T08:06:57.351Z'

@@ -1,0 +1,23 @@
+id: container3
+type: widget
+subtype: ContainerWidget
+template:
+  ordered:
+    - heightType: fixed
+    - spinWhenChildrenAreFetching: true
+    - showBorder: true
+    - showDropShadow: true
+    - style:
+        ordered: []
+    - backgroundColor: white
+    - title: ''
+    - overflowType: visible
+    - disabled: ''
+style:
+  ordered: []
+position2:
+  position2:
+    row: 10
+    height: 15
+    width: 4
+createdAt: '2019-02-08T13:16:34.262Z'

@@ -1,0 +1,23 @@
+id: text11
+type: widget
+subtype: TextWidget
+template:
+  ordered:
+    - horizontalAlign: left
+    - truncateOverflow: false
+    - verticalAlign: center
+    - scrollOverflow: false
+    - tooltipText: ''
+    - value: '##### Quick Actions'
+    - style:
+        ordered: []
+    - renderAsHtml: true
+    - renderAsMarkdown: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: container4
+    height: 1
+    width: 12
+createdAt: '2019-02-09T01:09:17.882Z'

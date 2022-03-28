@@ -1,0 +1,26 @@
+id: text7
+type: widget
+subtype: TextWidget
+template:
+  ordered:
+    - horizontalAlign: left
+    - truncateOverflow: false
+    - verticalAlign: center
+    - scrollOverflow: false
+    - tooltipText: ''
+    - value: |+
+        ##### Salesforce Profile
+
+    - style:
+        ordered: []
+    - renderAsHtml: true
+    - renderAsMarkdown: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: container3
+    row: 6
+    height: 1
+    width: 12
+createdAt: '2019-02-09T00:01:56.487Z'

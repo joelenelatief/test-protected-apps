@@ -1,0 +1,227 @@
+id: table2
+type: widget
+subtype: TableWidget
+template:
+  ordered:
+    - actionButtonQuery: ''
+    - showCustomButton: false
+    - sortMappedValue:
+        ordered: []
+    - _filteredSortedRenderedDataWithTypes: null
+    - normalizedData: null
+    - actionButtonType: runQuery
+    - saveChangesDisabled: ''
+    - columnTypeProperties:
+        ordered: []
+    - columnWidths:
+        - object:
+            id: email
+            value: 319.859375
+    - actionButtonDisabled: ''
+    - disableRowSelectInteraction: false
+    - columnWidthsMobile: []
+    - hasNextAfterCursor: ''
+    - columnTypeSpecificExtras:
+        ordered: []
+    - onRowAdded: ''
+    - columnHeaderNames:
+        ordered: []
+    - alwaysShowPaginator: false
+    - columnColors:
+        ordered:
+          - googleToken: ''
+          - lastName: ''
+          - enabled: ''
+          - haspwd: ''
+          - isAdmin: ''
+          - profilePhotoUrl: ''
+          - hashedPassword: ''
+          - resetPasswordExpires: ''
+          - 2fa: ''
+          - sid: ''
+          - organizationId: ''
+          - updatedAt: ''
+          - resetPasswordToken: ''
+          - twoFactorAuthSecret: ''
+          - googleId: ''
+          - userName: ''
+          - id: ''
+          - createdAt: ''
+          - firstName: ''
+          - every: ''
+          - email: ''
+          - lastLoggedIn: ''
+          - twoFactorAuthEnabled: ''
+    - columnFrozenAlignments:
+        ordered: []
+    - allowMultiRowSelect: false
+    - columnFormats:
+        ordered: []
+    - columnRestrictedEditing:
+        ordered: []
+    - showFilterButton: true
+    - actionButtonUrl: ''
+    - actionButton: false
+    - _columnSummaryTypes:
+        ordered: []
+    - actionButtonNewWindow: false
+    - _columnsWithLegacyBackgroundColor:
+        set: []
+    - showAddRowButton: false
+    - nextBeforeCursor: ''
+    - columnVisibility:
+        ordered:
+          - googleToken: true
+          - lastName: true
+          - enabled: true
+          - haspwd: true
+          - isAdmin: true
+          - profilePhotoUrl: false
+          - hashedPassword: true
+          - resetPasswordExpires: true
+          - name: true
+          - sales: true
+          - 2fa: true
+          - sid: false
+          - organizationId: false
+          - updatedAt: true
+          - resetPasswordToken: true
+          - twoFactorAuthSecret: true
+          - googleId: true
+          - userName: true
+          - id: false
+          - createdAt: true
+          - firstName: true
+          - every: true
+          - email: true
+          - lastLoggedIn: true
+          - twoFactorAuthEnabled: true
+    - selectedPageIndex: '0'
+    - applyDynamicSettingsToColumnOrder: false
+    - rowColor:
+        array: []
+    - actionButtonColumnName: Actions
+    - filterStackType: and
+    - downloadRawData: true
+    - showFetchingIndicator: true
+    - serverPaginated: false
+    - data: '{{  getOrgUsers.data  }}'
+    - displayedData: null
+    - actionButtons: []
+    - actionButtonSelectsRow: false
+    - selectRowByDefault: true
+    - defaultSortByColumn: ''
+    - paginationOffset: 0
+    - columnAlignment:
+        ordered: []
+    - columnSummaries:
+        object: {}
+    - sortedDesc: false
+    - customButtonName: ''
+    - columnMappersRenderAsHTML:
+        ordered: []
+    - actionButtonInternalUrlPath: ''
+    - showRefreshButton: true
+    - pageSize: 9
+    - useDynamicColumnSettings: false
+    - style:
+        ordered: []
+    - selectedColumn: null
+    - actionButtonPosition: right
+    - dynamicRowHeights: false
+    - bulkUpdateAction: ''
+    - afterCursor: ''
+    - onCustomButtonPressQueryName: ''
+    - changeSet:
+        object: {}
+    - sortedColumn: ''
+    - _columnSummaryValues:
+        ordered: []
+    - checkboxRowSelect: false
+    - _compatibilityMode: true
+    - showColumnBorders: true
+    - _renderedDataWithTypes: null
+    - actionButtonText: ''
+    - columnAllowOverflow:
+        ordered: []
+    - beforeCursor: ''
+    - serverPaginationType: limitOffsetBased
+    - onRowSelect: ''
+    - showDownloadButton: true
+    - selectedIndex: ''
+    - defaultSortDescending: false
+    - _sortedDisplayedDataIndices: null
+    - dynamicColumnSettings: null
+    - totalRowCount: ''
+    - recordUpdates:
+        ordered:
+          - array: []
+    - newRow: null
+    - emptyMessage: No rows found
+    - columnEditable:
+        ordered: []
+    - filters:
+        ordered:
+          - array: []
+    - displayedDataIndices: null
+    - disableSorting:
+        ordered: []
+    - columnMappers:
+        ordered: []
+    - showClearSelection: false
+    - doubleClickToEdit: false
+    - overflowType: pagination
+    - _reverseSortedDisplayedDataIndices: null
+    - selectedCell:
+        object:
+          index: null
+          data: null
+          columnName: null
+    - columns:
+        - id
+        - email
+        - firstName
+        - lastName
+        - profilePhotoUrl
+        - googleId
+        - googleToken
+        - hashedPassword
+        - organizationId
+        - createdAt
+        - updatedAt
+        - lastLoggedIn
+        - enabled
+        - resetPasswordToken
+        - resetPasswordExpires
+        - sid
+        - userName
+        - twoFactorAuthSecret
+        - twoFactorAuthEnabled
+        - every
+        - isAdmin
+        - 2fa
+        - haspwd
+    - defaultSelectedRow: first
+    - freezeActionButtonColumns: false
+    - sort: null
+    - actionButtonInternalUrlQuery: ''
+    - sortByRawValue:
+        ordered: []
+    - calculatedColumns: []
+    - selectedRow:
+        object:
+          index: null
+          data: null
+    - showPaginationOnTop: false
+    - _reverseDisplayedDataIndices: null
+    - nextAfterCursor: ''
+    - useCompactMode: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: container2
+    row: 1
+    height: 11
+    width: 12
+createdAt: '2019-02-08T12:08:06.056Z'

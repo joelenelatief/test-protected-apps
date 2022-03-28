@@ -1,0 +1,42 @@
+id: button6
+type: widget
+subtype: ButtonWidget
+template:
+  ordered:
+    - valueToCopy: ''
+    - color: '#cc5248'
+    - internalUrlHashParams: ''
+    - exportFileType: csv
+    - buttonType: action
+    - exportTemplate: null
+    - url: ''
+    - newWindow: false
+    - value: Move to Enterprise
+    - style:
+        ordered:
+          - accent-background: '#cc5248'
+    - exportQuery: ''
+    - action: moveToEnterprise
+    - internalUrlQuery: ''
+    - internalUrlPath: ''
+    - events:
+        - ordered:
+            - event: click
+            - method: trigger
+            - type: datasource
+            - pluginId: moveToEnterprise
+            - waitType: debounce
+            - waitMs: '0'
+    - exportFileName: ''
+    - loading: ''
+    - disabled: ''
+style:
+  ordered:
+    - accent-background: '#cc5248'
+position2:
+  position2:
+    container: container1
+    row: 7
+    height: 1
+    width: 6
+createdAt: '2019-02-18T19:04:01.557Z'

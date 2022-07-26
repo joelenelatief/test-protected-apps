@@ -1,0 +1,18 @@
+id: text1
+type: widget
+subtype: TextWidget
+template:
+  ordered:
+    - value: '# Hello world, am I speaking with {{ textinput1.value }}?'
+    - html: false
+    - scrollOverflow: false
+    - truncateOverflow: false
+position2:
+  position2:
+    height: 1
+    width: 9
+mobilePosition2:
+  position2:
+    height: 1
+    width: 3
+createdAt: '2019-11-27T23:29:19.102Z'

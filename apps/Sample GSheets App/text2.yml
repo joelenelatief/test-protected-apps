@@ -3,11 +3,6 @@ type: widget
 subtype: TextWidget
 template:
   ordered:
-    - horizontalAlign: left
-    - truncateOverflow: false
-    - verticalAlign: center
-    - scrollOverflow: false
-    - tooltipText: ''
     - value: |-
         <center><h3 style="line-height:25px">Demo day companies</h3></center>
         <style>
@@ -18,12 +13,9 @@ template:
             min-width: 0 !important;
           }
         </style>
-    - style:
-        ordered: []
-    - renderAsHtml: true
-    - renderAsMarkdown: false
-style:
-  ordered: []
+    - html: true
+    - scrollOverflow: false
+    - truncateOverflow: false
 position2:
   position2:
     height: 1

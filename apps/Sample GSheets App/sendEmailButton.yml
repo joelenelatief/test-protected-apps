@@ -3,36 +3,20 @@ type: widget
 subtype: ButtonWidget
 template:
   ordered:
-    - valueToCopy: ''
-    - color: '#3c92dc'
-    - internalUrlHashParams: ''
+    - color: ''
     - exportFileType: csv
     - buttonType: action
     - exportTemplate: null
     - url: ''
     - newWindow: false
     - value: Send Email
-    - style:
-        ordered:
-          - accent-background: ''
     - exportQuery: ''
     - action: sendEmail
     - internalUrlQuery: ''
     - internalUrlPath: ''
-    - events:
-        - ordered:
-            - event: click
-            - method: trigger
-            - type: datasource
-            - pluginId: sendEmail
-            - waitType: debounce
-            - waitMs: '0'
     - exportFileName: ''
     - loading: ''
     - disabled: ''
-style:
-  ordered:
-    - accent-background: ''
 position2:
   position2:
     row: 12

@@ -7,11 +7,13 @@ template:
     - sortMappedValue:
         ordered: []
     - _filteredSortedRenderedDataWithTypes: null
+    - heightType: fixed
     - normalizedData: null
     - saveChangesDisabled: ''
     - columnTypeProperties:
         ordered: []
     - columnWidths: []
+    - showSummaryFooter: false
     - disableRowSelectInteraction: false
     - columnWidthsMobile: []
     - hasNextAfterCursor: ''
@@ -41,11 +43,27 @@ template:
     - columnRestrictedEditing:
         ordered: []
     - showFilterButton: true
+    - _columnVisibility:
+        ordered:
+          - size: true
+          - userId: true
+          - created: true
+          - pageId: true
+          - data: true
+          - Sales: true
+          - updatedAt: true
+          - changesRecord: true
+          - Title: true
+          - gitSha: true
+          - id: true
+          - createdAt: true
+          - Description: true
     - _columnSummaryTypes:
         ordered: []
     - _columnsWithLegacyBackgroundColor:
         set: []
     - showAddRowButton: false
+    - _unfilteredSelectedIndex: ''
     - nextBeforeCursor: ''
     - columnVisibility:
         ordered:
@@ -67,6 +85,7 @@ template:
     - rowColor:
         array: []
     - actionButtonColumnName: Actions
+    - resetAfterSave: true
     - filterStackType: and
     - downloadRawData: true
     - showFetchingIndicator: true
@@ -82,6 +101,7 @@ template:
         ordered: []
     - columnSummaries:
         object: {}
+    - showBoxShadow: true
     - sortedDesc: false
     - customButtonName: ''
     - columnMappersRenderAsHTML:
@@ -105,6 +125,7 @@ template:
     - checkboxRowSelect: false
     - _compatibilityMode: true
     - showColumnBorders: true
+    - clearSelectionLabel: Clear selection
     - _renderedDataWithTypes: null
     - columnAllowOverflow:
         ordered: []
@@ -112,7 +133,7 @@ template:
     - serverPaginationType: limitOffsetBased
     - onRowSelect: ''
     - showDownloadButton: true
-    - selectedIndex: ''
+    - selectedIndex: null
     - defaultSortDescending: false
     - _sortedDisplayedDataIndices: null
     - dynamicColumnSettings: null
@@ -124,6 +145,8 @@ template:
     - emptyMessage: No rows found
     - columnEditable:
         ordered: []
+    - _viewerColumnSummaryTypes:
+        object: {}
     - filters:
         ordered:
           - array: []
@@ -136,6 +159,7 @@ template:
     - doubleClickToEdit: false
     - overflowType: pagination
     - _reverseSortedDisplayedDataIndices: null
+    - showTableBorder: true
     - selectedCell:
         object:
           index: null
@@ -158,6 +182,20 @@ template:
     - defaultSelectedRow: first
     - freezeActionButtonColumns: false
     - sort: null
+    - _columns:
+        - Title
+        - Description
+        - Sales
+        - id
+        - data
+        - createdAt
+        - updatedAt
+        - pageId
+        - changesRecord
+        - userId
+        - gitSha
+        - size
+        - created
     - sortByRawValue:
         ordered: []
     - calculatedColumns: []

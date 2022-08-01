@@ -51,6 +51,7 @@ template:
     - changeset: '[{"key":"name","value":"{{ editabletext1.value }}"}]'
     - rawData: null
     - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
     - watchedParams: []
     - enableErrorTransformer: false
     - enableBulkUpdates: false

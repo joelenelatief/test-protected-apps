@@ -51,6 +51,7 @@ template:
     - changeset: '[{"key":"enabled","value":"{{ !table2.selectedRow.data.enabled }}"}]'
     - rawData: null
     - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
     - watchedParams: []
     - enableErrorTransformer: false
     - enableBulkUpdates: false

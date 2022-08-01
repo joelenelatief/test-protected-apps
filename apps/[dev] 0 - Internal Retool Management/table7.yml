@@ -1,22 +1,19 @@
-id: table5
+id: table7
 type: widget
 subtype: TableWidget
 template:
   ordered:
-    - actionButtonQuery: ''
     - showCustomButton: false
     - sortMappedValue:
         ordered: []
     - _filteredSortedRenderedDataWithTypes: null
     - heightType: fixed
     - normalizedData: null
-    - actionButtonType: runQuery
     - saveChangesDisabled: ''
     - columnTypeProperties:
         ordered: []
     - columnWidths: []
     - showSummaryFooter: false
-    - actionButtonDisabled: ''
     - disableRowSelectInteraction: false
     - columnWidthsMobile: []
     - hasNextAfterCursor: ''
@@ -30,7 +27,6 @@ template:
         ordered:
           - id: ''
           - name: ''
-          - type: ''
           - email: ''
           - sales: ''
     - columnFrozenAlignments:
@@ -42,43 +38,56 @@ template:
         ordered: []
     - showFilterButton: true
     - _columnVisibility:
-        ordered:
-          - id: true
-          - name: true
-          - type: true
-          - email: true
-          - sales: true
-    - actionButtonUrl: ''
-    - actionButton: false
+        ordered: []
     - _columnSummaryTypes:
         ordered: []
-    - actionButtonNewWindow: false
     - _columnsWithLegacyBackgroundColor:
         set: []
     - showAddRowButton: false
-    - _unfilteredSelectedIndex: ''
+    - _unfilteredSelectedIndex: null
     - nextBeforeCursor: ''
     - columnVisibility:
-        ordered:
-          - id: true
-          - name: true
-          - type: true
-          - email: true
-          - sales: true
+        ordered: []
     - selectedPageIndex: '0'
-    - applyDynamicSettingsToColumnOrder: false
+    - applyDynamicSettingsToColumnOrder: true
     - rowColor:
         array: []
     - actionButtonColumnName: Actions
     - resetAfterSave: true
     - filterStackType: and
-    - downloadRawData: true
+    - downloadRawData: false
     - showFetchingIndicator: true
     - serverPaginated: false
-    - data: '{{  getResources.data }}'
+    - data: |-
+        [{
+          "id": 1,
+          "name": "Hanson Deck",
+          "email": "hanson@deck.com",
+          "sales": 37
+        }, {
+          "id": 2,
+          "name": "Sue Shei",
+          "email": "sueshei@example.com",
+          "sales": 550
+        }, {
+          "id": 3,
+          "name": "Jason Response",
+          "email": "jason@response.com",
+          "sales": 55
+        }, {
+          "id": 4,
+          "name": "Cher Actor",
+          "email": "cher@example.com",
+          "sales": 424
+        }, {
+          "id": 5,
+          "name": "Erica Widget",
+          "email": "erica@widget.org",
+          "sales": 243
+        }]
     - displayedData: null
     - actionButtons: []
-    - actionButtonSelectsRow: false
+    - actionButtonSelectsRow: true
     - selectRowByDefault: true
     - defaultSortByColumn: ''
     - paginationOffset: 0
@@ -86,19 +95,15 @@ template:
         ordered: []
     - columnSummaries:
         object: {}
-    - showBoxShadow: true
+    - showBoxShadow: false
     - sortedDesc: false
     - customButtonName: ''
     - columnMappersRenderAsHTML:
         ordered: []
-    - actionButtonInternalUrlPath: ''
     - showRefreshButton: true
-    - pageSize: 11
+    - pageSize: '20'
     - useDynamicColumnSettings: false
-    - style:
-        ordered: []
-    - selectedColumn: null
-    - actionButtonPosition: right
+    - actionButtonPosition: left
     - dynamicRowHeights: false
     - bulkUpdateAction: ''
     - afterCursor: ''
@@ -108,12 +113,11 @@ template:
     - sortedColumn: ''
     - _columnSummaryValues:
         ordered: []
-    - checkboxRowSelect: false
-    - _compatibilityMode: true
-    - showColumnBorders: true
+    - checkboxRowSelect: true
+    - _compatibilityMode: false
+    - showColumnBorders: false
     - clearSelectionLabel: Clear selection
     - _renderedDataWithTypes: null
-    - actionButtonText: ''
     - columnAllowOverflow:
         ordered: []
     - beforeCursor: ''
@@ -126,8 +130,7 @@ template:
     - dynamicColumnSettings: null
     - totalRowCount: ''
     - recordUpdates:
-        ordered:
-          - array: []
+        array: []
     - newRow: null
     - emptyMessage: No rows found
     - columnEditable:
@@ -135,15 +138,14 @@ template:
     - _viewerColumnSummaryTypes:
         object: {}
     - filters:
-        ordered:
-          - array: []
+        array: []
     - displayedDataIndices: null
     - disableSorting:
         ordered: []
     - columnMappers:
         ordered: []
     - showClearSelection: false
-    - doubleClickToEdit: false
+    - doubleClickToEdit: true
     - overflowType: pagination
     - _reverseSortedDisplayedDataIndices: null
     - showTableBorder: true
@@ -152,22 +154,11 @@ template:
           index: null
           data: null
           columnName: null
-    - columns:
-        - id
-        - name
-        - email
-        - sales
-        - type
+    - columns: []
     - defaultSelectedRow: first
     - freezeActionButtonColumns: false
     - sort: null
-    - _columns:
-        - id
-        - name
-        - email
-        - sales
-        - type
-    - actionButtonInternalUrlQuery: ''
+    - _columns: []
     - sortByRawValue:
         ordered: []
     - calculatedColumns: []
@@ -178,14 +169,13 @@ template:
     - showPaginationOnTop: false
     - _reverseDisplayedDataIndices: null
     - nextAfterCursor: ''
-    - useCompactMode: true
+    - useCompactMode: false
 style:
   ordered: []
 position2:
   position2:
-    container: container2
-    row: 15
-    col: 6
+    row: 64.8
+    col: 10
     height: 8
-    width: 6
-createdAt: '2019-03-27T23:33:25.011Z'
+    width: 2
+createdAt: 2022-08-01T13:51:40.074Z

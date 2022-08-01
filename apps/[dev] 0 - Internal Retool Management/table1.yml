@@ -8,6 +8,7 @@ template:
     - sortMappedValue:
         ordered: []
     - _filteredSortedRenderedDataWithTypes: null
+    - heightType: fixed
     - normalizedData: null
     - actionButtonType: runQuery
     - saveChangesDisabled: ''
@@ -23,6 +24,7 @@ template:
         - object:
             id: email
             value: 242.4375
+    - showSummaryFooter: false
     - actionButtonDisabled: ''
     - disableRowSelectInteraction: false
     - columnWidthsMobile: []
@@ -67,6 +69,32 @@ template:
     - columnRestrictedEditing:
         ordered: []
     - showFilterButton: true
+    - _columnVisibility:
+        ordered:
+          - googleToken: false
+          - lastName: false
+          - enabled: true
+          - planId: true
+          - subdomain: true
+          - stripeCustomerId: true
+          - profilePhotoUrl: false
+          - hashedPassword: true
+          - resetPasswordExpires: true
+          - name: true
+          - sales: true
+          - sid: true
+          - organizationId: true
+          - updatedAt: true
+          - resetPasswordToken: true
+          - twoFactorAuthSecret: true
+          - googleId: false
+          - userName: true
+          - id: true
+          - createdAt: true
+          - firstName: false
+          - email: true
+          - lastLoggedIn: true
+          - twoFactorAuthEnabled: true
     - actionButtonUrl: ''
     - actionButton: false
     - _columnSummaryTypes:
@@ -75,6 +103,7 @@ template:
     - _columnsWithLegacyBackgroundColor:
         set: []
     - showAddRowButton: false
+    - _unfilteredSelectedIndex: ''
     - nextBeforeCursor: ''
     - columnVisibility:
         ordered:
@@ -107,6 +136,7 @@ template:
     - rowColor:
         array: []
     - actionButtonColumnName: Actions
+    - resetAfterSave: true
     - filterStackType: and
     - downloadRawData: true
     - showFetchingIndicator: true
@@ -122,6 +152,7 @@ template:
         ordered: []
     - columnSummaries:
         object: {}
+    - showBoxShadow: true
     - sortedDesc: false
     - customButtonName: ''
     - columnMappersRenderAsHTML:
@@ -146,6 +177,7 @@ template:
     - checkboxRowSelect: false
     - _compatibilityMode: true
     - showColumnBorders: true
+    - clearSelectionLabel: Clear selection
     - _renderedDataWithTypes: null
     - actionButtonText: ''
     - columnAllowOverflow:
@@ -154,7 +186,7 @@ template:
     - serverPaginationType: limitOffsetBased
     - onRowSelect: ''
     - showDownloadButton: true
-    - selectedIndex: ''
+    - selectedIndex: null
     - defaultSortDescending: false
     - _sortedDisplayedDataIndices: null
     - dynamicColumnSettings: null
@@ -166,6 +198,8 @@ template:
     - emptyMessage: No rows found
     - columnEditable:
         ordered: []
+    - _viewerColumnSummaryTypes:
+        object: {}
     - filters:
         ordered:
           - array: []
@@ -179,6 +213,7 @@ template:
     - doubleClickToEdit: false
     - overflowType: pagination
     - _reverseSortedDisplayedDataIndices: null
+    - showTableBorder: true
     - selectedCell:
         object:
           index: null
@@ -211,6 +246,30 @@ template:
     - defaultSelectedRow: first
     - freezeActionButtonColumns: false
     - sort: null
+    - _columns:
+        - id
+        - sid
+        - email
+        - firstName
+        - lastName
+        - profilePhotoUrl
+        - organizationId
+        - name
+        - googleId
+        - googleToken
+        - hashedPassword
+        - createdAt
+        - updatedAt
+        - lastLoggedIn
+        - enabled
+        - resetPasswordToken
+        - resetPasswordExpires
+        - userName
+        - twoFactorAuthSecret
+        - twoFactorAuthEnabled
+        - subdomain
+        - planId
+        - stripeCustomerId
     - actionButtonInternalUrlQuery: ''
     - sortByRawValue:
         ordered: []
@@ -227,7 +286,7 @@ style:
   ordered: []
 position2:
   position2:
-    row: 2
+    row: 12.6
     height: 8
     width: 12
 createdAt: '2019-02-08T11:51:47.942Z'

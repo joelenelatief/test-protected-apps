@@ -20,14 +20,21 @@ template:
           - b: true
           - veriifed: true
           - billingCardholderName: true
+          - inCanaryGroup: true
           - twoFactorAuthRequired: true
+          - protectedGitHubRepo: true
           - c: true
+          - cacheQueriesPerUser: true
+          - defaultAppThemeId: true
+          - themeId: true
           - domain: true
           - planId: true
           - subdomain: true
           - billingCardholderEmail: true
           - isAdmin: true
           - stripeSubscriptionId: true
+          - protectedGitBranch: true
+          - protectedAppsSyncEnabled: true
           - stripeCustomerId: true
           - profilePhotoUrl: true
           - message: true
@@ -42,26 +49,35 @@ template:
           - name: true
           - javaScriptLinks: true
           - jitEnabled: true
+          - protectedGitHubBaseUrl: true
           - sid: true
           - organizationId: true
           - updatedAt: true
+          - platformLevelAuthSteps: true
+          - onpremStripeSubscriptionId: true
           - applyPreloadedCSSToHomepage: true
+          - protectedGitHubOrg: true
           - hostname: true
           - idpMetadataXML: true
           - gitBranch: true
           - planName: true
           - preloadedJavaScript: true
+          - releaseManagementEnabled: true
           - trialExpiryDate: true
           - isCompanyAccount: true
+          - onpremStripePlanId: true
           - preloadedCSS: true
           - onboardingStagesCompleted: true
           - id: true
           - createdAt: true
           - firstName: true
           - every: true
+          - protectedGitCommit: true
+          - licenseVerification: true
           - billingCardBrand: true
           - email: true
           - gitUrl: true
+          - protectedGitHubEnterpriseUrl: true
           - statusCode: true
     - style:
         ordered: []
@@ -118,12 +134,28 @@ template:
         - onboardingStagesCompleted
         - statusCode
         - data
+        - themeId
+        - licenseVerification
+        - platformLevelAuthSteps
+        - defaultAppThemeId
+        - protectedGitHubOrg
+        - protectedGitHubRepo
+        - protectedGitBranch
+        - protectedGitCommit
+        - cacheQueriesPerUser
+        - protectedGitHubBaseUrl
+        - protectedGitHubEnterpriseUrl
+        - onpremStripeSubscriptionId
+        - onpremStripePlanId
+        - inCanaryGroup
+        - protectedAppsSyncEnabled
+        - releaseManagementEnabled
     - keyTitle: Key
 style:
   ordered: []
 position2:
   position2:
-    row: 40
+    row: 50.6
     height: 11
     width: 4
 createdAt: '2019-02-10T21:50:41.627Z'

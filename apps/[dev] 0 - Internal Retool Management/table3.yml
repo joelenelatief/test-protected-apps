@@ -8,6 +8,7 @@ template:
     - sortMappedValue:
         ordered: []
     - _filteredSortedRenderedDataWithTypes: null
+    - heightType: fixed
     - normalizedData: null
     - actionButtonType: runQuery
     - saveChangesDisabled: ''
@@ -20,6 +21,7 @@ template:
         - object:
             id: name
             value: 179.828125
+    - showSummaryFooter: false
     - actionButtonDisabled: ''
     - disableRowSelectInteraction: false
     - columnWidthsMobile: []
@@ -51,6 +53,20 @@ template:
     - columnRestrictedEditing:
         ordered: []
     - showFilterButton: true
+    - _columnVisibility:
+        ordered:
+          - folderId: true
+          - name: true
+          - sales: true
+          - organizationId: true
+          - updatedAt: true
+          - saves: true
+          - releasedTagId: true
+          - id: true
+          - createdAt: true
+          - uuid: true
+          - email: true
+          - last_saved: true
     - actionButtonUrl: ''
     - actionButton: false
     - _columnSummaryTypes:
@@ -59,6 +75,7 @@ template:
     - _columnsWithLegacyBackgroundColor:
         set: []
     - showAddRowButton: false
+    - _unfilteredSelectedIndex: ''
     - nextBeforeCursor: ''
     - columnVisibility:
         ordered:
@@ -79,6 +96,7 @@ template:
     - rowColor:
         array: []
     - actionButtonColumnName: Actions
+    - resetAfterSave: true
     - filterStackType: and
     - downloadRawData: true
     - showFetchingIndicator: true
@@ -94,6 +112,7 @@ template:
         ordered: []
     - columnSummaries:
         object: {}
+    - showBoxShadow: true
     - sortedDesc: false
     - customButtonName: ''
     - columnMappersRenderAsHTML:
@@ -118,6 +137,7 @@ template:
     - checkboxRowSelect: false
     - _compatibilityMode: true
     - showColumnBorders: true
+    - clearSelectionLabel: Clear selection
     - _renderedDataWithTypes: null
     - actionButtonText: ''
     - columnAllowOverflow:
@@ -126,7 +146,7 @@ template:
     - serverPaginationType: limitOffsetBased
     - onRowSelect: ''
     - showDownloadButton: true
-    - selectedIndex: ''
+    - selectedIndex: null
     - defaultSortDescending: false
     - _sortedDisplayedDataIndices: null
     - dynamicColumnSettings: null
@@ -138,6 +158,8 @@ template:
     - emptyMessage: No rows found
     - columnEditable:
         ordered: []
+    - _viewerColumnSummaryTypes:
+        object: {}
     - filters:
         ordered:
           - array: []
@@ -150,6 +172,7 @@ template:
     - doubleClickToEdit: false
     - overflowType: pagination
     - _reverseSortedDisplayedDataIndices: null
+    - showTableBorder: true
     - selectedCell:
         object:
           index: null
@@ -169,6 +192,17 @@ template:
     - defaultSelectedRow: first
     - freezeActionButtonColumns: false
     - sort: null
+    - _columns:
+        - id
+        - name
+        - createdAt
+        - updatedAt
+        - organizationId
+        - folderId
+        - uuid
+        - releasedTagId
+        - saves
+        - last_saved
     - actionButtonInternalUrlQuery: ''
     - sortByRawValue:
         ordered: []

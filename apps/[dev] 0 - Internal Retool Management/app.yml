@@ -10,4 +10,4 @@ appTemplate:
         - name: textinput1.value
         - value: '{{ urlparams.hash.search}}'
   rootScreen: null
-  version: 2.88.6
+  version: 2.97.0

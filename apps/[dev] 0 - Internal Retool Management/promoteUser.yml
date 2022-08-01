@@ -52,6 +52,7 @@ template:
         adminGroup.data.id[0]}}"},{"key":"createdAt","value":"now()"},{"key":"updatedAt","value":"now()"}]
     - rawData: null
     - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
     - watchedParams: []
     - enableErrorTransformer: false
     - enableBulkUpdates: false

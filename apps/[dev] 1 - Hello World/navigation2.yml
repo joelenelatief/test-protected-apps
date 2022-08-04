@@ -1,0 +1,109 @@
+id: navigation2
+type: widget
+subtype: NavigationWidget2
+template:
+  ordered:
+    - _disabledByIndex:
+        - ''
+        - ''
+        - ''
+    - heightType: auto
+    - iconByIndex:
+        array: []
+    - srcWidth: null
+    - _iconByIndex:
+        - ''
+        - ''
+        - ''
+    - src: ''
+    - overflowMode: scroll
+    - _parentKeyByIndex:
+        - ''
+        - ''
+        - ''
+    - _highlightByIndex:
+        - ''
+        - ''
+        - ''
+    - parentKeyByIndex:
+        array: []
+    - highlightByIndex:
+        array: []
+    - _appTargetByIndex:
+        - ''
+        - ''
+        - ''
+    - appTargetByIndex:
+        array: []
+    - hidden: false
+    - data:
+        array: []
+    - srcHeight: null
+    - itemTypeByIndex:
+        array: []
+    - showInEditor: false
+    - _itemTypeByIndex:
+        - ''
+        - ''
+        - ''
+    - orientation: horizontal
+    - tooltipText: ''
+    - hiddenByIndex:
+        array: []
+    - _hiddenByIndex:
+        - ''
+        - ''
+        - ''
+    - storageBlobId: ''
+    - _hasMigratedNestedItems: true
+    - altText: ''
+    - itemMode: static
+    - dbBlobId: ''
+    - _tooltipByIndex:
+        - ''
+        - ''
+        - ''
+    - _automaticallyHighlightedIndices:
+        array: []
+    - tooltipByIndex:
+        array: []
+    - events:
+        ordered: []
+    - _ids:
+        - 5f325
+        - '77000'
+        - 6927d
+    - iconPositionByIndex:
+        array: []
+    - _iconPositionByIndex:
+        - ''
+        - ''
+        - ''
+    - _keyByIndex:
+        - ''
+        - ''
+        - ''
+    - disabled: false
+    - keyByIndex:
+        array: []
+    - linePosition: bottom
+    - _labels:
+        - Menu item 1
+        - Menu item 2
+        - Menu item 3
+    - srcType: src
+    - disabledByIndex:
+        array: []
+    - horizontalAlignment: left
+    - maintainSpaceWhenHidden: false
+    - labels:
+        array: []
+style:
+  ordered: []
+position2:
+  position2:
+    row: 11.399999999999999
+    col: 8
+    height: 0.8
+    width: 4
+createdAt: 2022-08-04T22:48:34.633Z

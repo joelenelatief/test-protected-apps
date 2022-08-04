@@ -1,0 +1,103 @@
+id: navigation1
+type: widget
+subtype: NavigationWidget2
+template:
+  ordered:
+    - _disabledByIndex:
+        - ''
+        - ''
+        - ''
+    - heightType: auto
+    - iconByIndex:
+        array: []
+    - srcWidth: null
+    - _iconByIndex:
+        - bold/interface-alert-alarm-bell-2-alternate
+        - bold/interface-align-front-alternate
+        - bold/interface-arrows-bend-down-left-3
+    - src: ''
+    - overflowMode: scroll
+    - _parentKeyByIndex:
+        - ''
+        - ''
+        - ''
+    - _highlightByIndex:
+        - ''
+        - ''
+        - ''
+    - parentKeyByIndex:
+        array: []
+    - highlightByIndex:
+        array: []
+    - _appTargetByIndex: []
+    - appTargetByIndex:
+        array: []
+    - hidden: false
+    - data:
+        array: []
+    - srcHeight: null
+    - itemTypeByIndex:
+        array: []
+    - showInEditor: false
+    - _itemTypeByIndex: []
+    - orientation: horizontal
+    - tooltipText: ''
+    - hiddenByIndex:
+        array: []
+    - _hiddenByIndex:
+        - ''
+        - ''
+        - ''
+    - storageBlobId: ''
+    - _hasMigratedNestedItems: true
+    - altText: ''
+    - itemMode: static
+    - dbBlobId: ''
+    - _tooltipByIndex:
+        - ''
+        - ''
+        - ''
+    - _automaticallyHighlightedIndices:
+        array: []
+    - tooltipByIndex:
+        array: []
+    - events:
+        ordered: []
+    - _ids:
+        - 72f3a
+        - 1ba9f
+        - cbb1b
+    - iconPositionByIndex:
+        array: []
+    - _iconPositionByIndex:
+        - left
+        - left
+        - left
+    - _keyByIndex:
+        - ''
+        - ''
+        - ''
+    - disabled: false
+    - keyByIndex:
+        array: []
+    - linePosition: bottom
+    - _labels:
+        - Menu item 1
+        - Menu item 2
+        - Menu item 3
+    - srcType: src
+    - disabledByIndex:
+        array: []
+    - horizontalAlignment: left
+    - maintainSpaceWhenHidden: false
+    - labels:
+        array: []
+style:
+  ordered: []
+position2:
+  position2:
+    row: 1.6
+    col: 6
+    height: 0.8
+    width: 6
+createdAt: 2022-07-29T16:44:29.887Z

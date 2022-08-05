@@ -1,26 +1,23 @@
 id: text1
 type: widget
-subtype: TextWidget2
+subtype: TextWidget
 template:
   ordered:
-    - heightType: auto
     - horizontalAlign: left
-    - hidden: null
-    - imageWidth: fit
-    - showInEditor: null
+    - truncateOverflow: false
     - verticalAlign: center
+    - scrollOverflow: false
     - tooltipText: ''
     - value: '# Hello world, am I speaking with {{ textinput1.value }}?'
     - style:
         ordered: []
-    - disableMarkdown: false
-    - overflowType: scroll
-    - maintainSpaceWhenHidden: null
+    - renderAsHtml: true
+    - renderAsMarkdown: true
 style:
   ordered: []
 position2:
   position2:
-    row: 2.2
+    row: 3.4
     height: 1
     width: 9
 mobilePosition2:

@@ -1,55 +1,51 @@
 id: textinput1
 type: widget
-subtype: TextInputWidget2
+subtype: TextInputWidget
 template:
   ordered:
-    - spellCheck: false
-    - readOnly: false
-    - iconAfter: ''
-    - showCharacterCount: false
-    - autoComplete: false
-    - maxLength: null
-    - hidden: null
-    - customValidation: ''
-    - patternType: ''
-    - hideValidationMessage: false
-    - textBefore: ''
+    - validationMaxlengthValue: ''
+    - readonly: ''
+    - disabledKeyCodes: ''
+    - showNumberCommas: false
+    - validationMaxValue: ''
+    - onBlur: ''
+    - docsSlug: textinput
+    - validatonType: ''
+    - currencyType: USD
+    - leftIconName: search
+    - initialValue: '{{ current_user.email}}'
     - validationMessage: ''
-    - textAfter: ''
-    - showInEditor: null
-    - showClear: true
-    - pattern: ''
     - tooltipText: ''
-    - labelAlign: left
-    - formDataKey: '{{ self.id }}'
-    - value: '{{ current_user.email}}'
+    - value: ''
     - style:
         ordered: []
-    - labelCaption: ''
-    - labelWidth: '33'
-    - autoFill: ''
+    - suffix: ''
+    - validationMinlengthValue: ''
+    - validationLengthValue: ''
     - placeholder: Search here...
+    - validationType: regexp
     - label: Your name
-    - _validate: false
-    - labelWidthUnit: '%'
-    - invalid: false
-    - iconBefore: search
-    - minLength: null
-    - inputTooltip: ''
-    - events:
-        ordered: []
-    - autoCapitalize: none
-    - loading: false
-    - disabled: ''
-    - labelPosition: top
-    - labelWrap: true
-    - maintainSpaceWhenHidden: null
+    - currencyMajorOnly: false
+    - formattedValue: ''
+    - allowedInputsRegex: ''
+    - labelMaxWidth: ''
+    - enableValidationType: false
+    - labelPlacedOnLeft: ''
+    - onSubmit: ''
+    - validationMinValue: ''
+    - lastSubmittedAt: ''
+    - validationState:
+        object:
+          required: ''
+          validationType: ''
+    - type: text
+    - allowedRegex: ''
     - required: false
 style:
   ordered: []
 position2:
   position2:
-    row: 2.8000000000000003
+    row: 4.4
     height: 2
     width: 4
 mobilePosition2:

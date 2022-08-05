@@ -1,8 +1,7 @@
 id: getOrgUsers
 type: datasource
 subtype: SqlQuery
-resourceName: 63ddbd90-bcfc-4fa1-9e86-b84bb403d0c5
-resourceDisplayName: '[dev] internal_retool (readonly)'
+resourceName: '[dev] internal_retool (readonly)'
 template:
   ordered:
     - queryRefreshTime: ''

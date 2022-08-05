@@ -45,6 +45,7 @@ style:
   ordered: []
 position2:
   position2:
+    row: 1
     col: 7
     height: 2
     width: 5

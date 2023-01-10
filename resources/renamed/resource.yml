@@ -4,7 +4,7 @@ databaseUsername: ''
 dynamicallyQueryable: false
 editPrivilege: false
 environment: production
-host: 'asdasfasdfasdfsdfffffff '
+host: vasdasfasdfasdfsdfffffff ff
 options:
   authentication: user_password
   connectionString: ''
